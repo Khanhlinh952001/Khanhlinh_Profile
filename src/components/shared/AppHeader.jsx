@@ -48,17 +48,26 @@ const AppHeader = () => {
 					<div>
 						<Link to="/">
 							{activeTheme === 'dark' ? (
+								<div className='flex'>
 								<img
-									src={logoDark}
-									className="w-36"
-									alt="Dark Logo"
-								/>
+							style={{width: '40px',height:'40px'}}
+								src='/avatar.svg'
+								className="w-3 h-3"
+								alt="Dark Logo"
+							/>
+							<h1 className='mt-2 ml-2 font-semibold '>LINH CODER</h1>
+							</div>
 							) : (
-								<img
-									src={logoLight}
-									className="w-36"
+								<div className='flex'>
+									<img
+								style={{width: '40px',height:'40px'}}
+									src='/avatar.svg'
+									className="w-3 h-3"
 									alt="Dark Logo"
 								/>
+								<h1 className='mt-2 ml-2 font-semibold text-white'>LINH CODER</h1>
+								</div>
+								
 							)}
 						</Link>
 					</div>
