@@ -27,16 +27,14 @@ const AppBanner = () => {
         >
           Hi, I am Linh
         </motion.h1>
-		<div className="flex">
-			<h1 className="text-2xl font-semibold"></h1>
-			<Typical
-        steps={['I am a Full Stack!', 2000, 'I am a Designer', 2000,'I am a Mobile', 2000]}
-        loop={Infinity}
-        wrapper="h1"
-		className="text-3xl"
-		
-      />
-		</div>
+        <h1 className="font-general-semibold text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light ">
+  <Typical
+    steps={['I am a Full Stack!', 2000, 'I am a Designer', 2000, 'I am a Mobile Developer', 2000]}
+    loop={Infinity}
+    wrapper="span"
+  />
+</h1>
+
 		
         <motion.div
           initial={{ opacity: 0 }}
