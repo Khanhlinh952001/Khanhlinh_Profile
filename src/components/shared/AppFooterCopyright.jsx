@@ -4,7 +4,7 @@ function AppFooterCopyright() {
 			<div className="text-lg text-ternary-dark dark:text-ternary-light">
 				&copy; {new Date().getFullYear()}
 				<a
-					href="https://github.com/realstoman/react-tailwindcss-portfolio"
+					href="https://github.com/Khanhlinh952001/Khanhlinh_Profile"
 					target="__blank"
 					className="hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500"
 				>
