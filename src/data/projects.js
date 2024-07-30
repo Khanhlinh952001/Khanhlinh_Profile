@@ -9,20 +9,25 @@ import UIImage2 from '../images/ui-project-2.jpg';
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
+		title: 'Topik Website',
 		category: 'Web Application',
 		img: WebImage2,
 		ProjectHeader: {
-			title: 'Project Management UI - From Context',
-			publishDate: 'Jul 26, 2021',
-			tags: 'UI / Frontend',
+			title: 'Full-Stack Developer',
+			publishDate: 'Jul 26, 2023',
+			tags: 'UI / Frontend ',
 		},
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
+		title: 'Vgo Food',
 		category: 'Mobile Application',
 		img: MobileImage2,
+		ProjectHeader: {
+			title: 'Mobile Developer',
+			publishDate: 'Jul 26, 2024',
+			tags: 'Firebase / Frontend / Back-end ',
+		},
 	},
 	{
 		id: 3,
@@ -32,19 +37,19 @@ export const projectsData = [
 	},
 	{
 		id: 4,
-		title: 'Cloud Storage Platform',
+		title: 'Clothing Shop Website',
 		category: 'UI/UX Design',
 		img: UIImage2,
 	},
 	{
 		id: 5,
-		title: 'React Social App',
+		title: 'Room finder app',
 		category: 'Mobile Application',
 		img: MobileImage1,
 	},
 	{
 		id: 6,
-		title: 'Apple Design System',
+		title: ' Korean Exam Preparation Website',
 		category: 'Web Application',
 		img: WebImage1,
 	},
