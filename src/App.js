@@ -12,7 +12,7 @@ const Contact = lazy(() => import('./pages/Contact.jsx'));
 const Home = lazy(() => import('./pages/Home'));
 const Projects = lazy(() => import('./pages/Projects'));
 const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
-
+const ProductDetails = lazy(() => import('./pages/ProjectDetail'));
 
 function App() {
 	return (

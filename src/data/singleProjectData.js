@@ -53,7 +53,7 @@ export const singleProjectData = {
 			{
 				id: 3,
 				title: 'Website',
-				details: 'https://topik6.vercel.app/',
+				details: 'https://khanhlinh-profile.vercel.app/',
 			},
 			{
 				id: 4,
@@ -69,11 +69,12 @@ export const singleProjectData = {
 				title: 'Tools & Technologies',
 				techs: [
 					'HTML',
-					'CSS',
+				    'CSS',
 					'JavaScript',
 					'NextJs',
 					'TailwindCSS',
 					'Firebase',
+					'Mongoose',
 				],
 			},
 		],
